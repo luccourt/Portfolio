@@ -1,6 +1,6 @@
 import { Container, Grid, AppBar, Toolbar, Button, styled } from "@mui/material";
-import Logo from '/Projetos/Portfolio/public/img/LUCCOURT_icon.png'
-import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
+import Logo from '/Projetos/Portfolio/src/frontend/assets/img/LUCCOURT_icon.png'
+import EmailIcon from '@mui/icons-material/AlternateEmailRounded';
 import CodeIcon from '@mui/icons-material/Code';
 import PersonIcon from '@mui/icons-material/Person';
 
@@ -17,7 +17,7 @@ const IconCode = styled(CodeIcon)(() =>({
   color: "#7592e4"
 }))
 
-const IconContact = styled(ConnectWithoutContactIcon)(() =>({
+const IconEmail = styled(EmailIcon)(() =>({
   color: "#7592e4"
 }))
 
@@ -50,8 +50,8 @@ const Header = () => {
                 <Grid>
                   {/* <Link to="contact" smooth={true} duration={500}> */}
                     <ButtonStyle>
-                      <IconContact sx={{ mr: 0.1 }}/>
-                      email</ButtonStyle>
+                      <IconEmail sx={{ mr: 0.1 }}/>
+                      contato</ButtonStyle>
                   {/* </Link> */}
                 </Grid>
               </Grid>
